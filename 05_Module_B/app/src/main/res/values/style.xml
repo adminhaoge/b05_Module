@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberAddSub">
+        <attr name="value" format="integer|reference"/>
+        <attr name="minValue" format="integer|reference"/>
+        <attr name="maxValue" format="integer|reference"/>
+    </declare-styleable>
+
+    <style name="dialogWindowAnim" parent="android:Animation" >
+        <item name="android:windowEnterAnimation">@anim/show</item>
+        <item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="android:Theme">
+        <item name="android:background">@color/colorfense</item>
+        <item name="android:windowTitleSize">5dp</item>
+    </style>
+</resources>

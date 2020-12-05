@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:background="@drawable/style_btn"
+        android:id="@+id/btnDecrease"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/etAmount"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="20sp" />
+
+    <Button
+        android:background="@drawable/style_btn"
+        android:id="@+id/btnIncrease"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="+" />
+
+
+</LinearLayout>
